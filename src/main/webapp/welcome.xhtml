@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+* Licensed to the Apache Software Foundation (ASF) under one
+* or more contributor license agreements. See the NOTICE file
+* distributed with this work for additional information
+* regarding copyright ownership. The ASF licenses this file
+* to you under the Apache License, Version 2.0 (the
+* "License"); you may not use this file except in compliance
+* with the License. You may obtain a copy of the License at
+*
+* http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing,
+* software distributed under the License is distributed on an
+* "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+* KIND, either express or implied. See the License for the
+* specific language governing permissions and limitations
+* under the License.
+-->
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html">
+
+
+<h:body bgcolor="white">
+    <f:view>
+        <h:form id="mainForm">
+            <h:outputText value="欢迎来到J2ee学习教程"/>
+            <h3>
+                8.3 一个简单的Facelets应用
+            </h3>
+            <h:commandLink action="/view/lesson8/greeting">
+                <h:outputText value="GuessNumber"/>
+            </h:commandLink>
+            <h3>
+                8.4 使用Facelets模版
+            </h3>
+            <h:commandLink action="/view/lesson8/templateclient">
+                <h:outputText value="模版示例1"/>
+            </h:commandLink>
+            <br/>
+            <h:commandLink action="/view/lesson8/layoutclient">
+                <h:outputText value="模版示例2"/>
+            </h:commandLink>
+            <br/>
+            <h:commandLink action="/view/lesson8/recipe04_01a">
+                <h:outputText value="模版示例3"/>
+            </h:commandLink>
+            <h3>
+                8.5 复合组件
+            </h3>
+            <h:commandLink action="/view/lesson8/emuserpage">
+                <h:outputText value="复合组件示例1"/>
+            </h:commandLink>
+            <br/>
+            <h:commandLink action="/view/lesson8/login">
+                <h:outputText value="复合组件示例2"/>
+            </h:commandLink>
+            <br/>
+            <h:commandLink action="/view/lesson8/newBook">
+                <h:outputText value="复合组件示例3"/>
+            </h:commandLink>
+            <br/>
+            <h:commandLink action="/view/lesson8/custom_template_search">
+                <h:outputText value="复合组件示例4"/>
+            </h:commandLink>
+            <h3>
+                8.9 HTML5友好的标记
+            </h3>
+            <h:commandLink action="/view/lesson8/reservation">
+                <h:outputText value="直通元素、属性示例"/>
+            </h:commandLink>
+        </h:form>
+    </f:view>
+</h:body>
+</html>

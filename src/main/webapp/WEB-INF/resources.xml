@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <Resource id="MySQL" aliases="myAppDataSourceName" type="DataSource">
+        JdbcDriver = com.mysql.jdbc.Driver
+        JdbcUrl = jdbc:mysql://localhost:3306/p2p?tcpKeepAlive=true
+        UserName = root
+        Password = root
+        ValidationQuery = SELECT 1
+        ValidationInterval = 30000
+        NumTestsPerEvictionRun = 5
+        TimeBetweenEvictionRuns = 30 seconds
+        TestWhileIdle = true
+        MaxActive = 200
+       <!-- JtaManaged=false-->
+    </Resource>
+</resources>
